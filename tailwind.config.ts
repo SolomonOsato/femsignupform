@@ -22,8 +22,8 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        mobile: "url('/images/bg-intro-mobile')",
-        desktop: "url('/images/bg-intro-desktop')",
+        mobile: "url('/images/bg-intro-mobile.png')",
+        desktop: "url('/images/bg-intro-desktop.png')",
       },
     },
   },
