@@ -21,6 +21,10 @@ const config: Config = {
           gray: "hsl(246, 25%, 77%)",
         },
       },
+      backgroundImage: {
+        mobile: "url('/images/bg-intro-mobile')",
+        desktop: "url('/images/bg-intro-desktop')",
+      },
     },
   },
   plugins: [],
