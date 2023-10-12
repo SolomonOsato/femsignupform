@@ -70,7 +70,10 @@ export default function Signup() {
       </div>
       <div className="grid relative gap-2 p-0 m-0">
         <input
-          className={"form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " + getErrorStyles("lastName")}
+          className={
+            "form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " +
+            getErrorStyles("lastName")
+          }
           type="text"
           placeholder="Last Name"
           {...register("lastName", {
@@ -93,7 +96,10 @@ export default function Signup() {
       </div>
       <div className="grid relative gap-2 p-0 m-0">
         <input
-          className={"form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " + getErrorStyles("email")}
+          className={
+            "form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " +
+            getErrorStyles("email")
+          }
           type="email"
           placeholder="Email Address"
           {...register("email", {
@@ -122,7 +128,10 @@ export default function Signup() {
       </div>
       <div className="grid relative gap-2 p-0 m-0">
         <input
-          className={"form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " + getErrorStyles("password")}
+          className={
+            "form-input text-neutral-dark font-semibold placeholder:text-neutral-dark/60 placeholder:font-bold rounded " +
+            getErrorStyles("password")
+          }
           type="password"
           placeholder="Password"
           {...register("password", {
