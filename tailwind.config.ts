@@ -25,6 +25,10 @@ const config: Config = {
         mobile: "url('/images/bg-intro-mobile.png')",
         desktop: "url('/images/bg-intro-desktop.png')",
       },
+      boxShadow: {
+        red: "0 8px 0 hsl(0 60% 58% / 0.5)",
+        green: "0 4px 0 hsl(154 59% 41% / 0.8)",
+      },
     },
   },
   plugins: [require("@tailwindcss/forms")],

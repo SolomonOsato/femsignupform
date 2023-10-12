@@ -39,7 +39,7 @@ export default function Signup() {
   }
   return (
     <form
-      className="bg-white rounded-xl p-5 grid gap-4"
+      className="bg-white rounded-xl p-5 grid gap-4 shadow-red"
       onSubmit={handleSubmit(onSubmit, onNotSubmit)}
     >
       <div className="grid relative gap-2 p-0 m-0">
@@ -153,7 +153,7 @@ export default function Signup() {
         )}
       </div>
       <button
-        className="uppercase bg-primary-green font-semibold rounded-md cursor-pointer px-4 py-4"
+        className="uppercase bg-primary-green font-semibold rounded-md cursor-pointer px-4 py-4 shadow-green active:opacity-40"
         type="submit"
       >
         Claim your free trial

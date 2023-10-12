@@ -11,9 +11,9 @@ export default function Home() {
           invaluable.
         </p>
       </section>
-      <section className="grid gap-4 text-center">
+      <section className="grid gap-6 text-center">
         <h1 className="sr-only">sign-up section</h1>
-        <p className="bg-accent-blue rounded-xl px-8 py-4">
+        <p className="bg-accent-blue rounded-xl px-8 py-4 shadow-red">
           <span className="font-semibold">Try it free for 7 days</span>&nbsp;
           <span>then &#x24;20/mo. thereafter</span>
         </p>
